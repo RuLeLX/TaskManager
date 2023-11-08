@@ -19,7 +19,7 @@ ALLOWED_HOSTS = []
 #Аутентификация по JWT
 REST_FRAMEWORK = { 
   'DEFAULT_AUTHENTICATION_CLASSES': (
-    'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        
   ),
 }
 
@@ -126,3 +126,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
